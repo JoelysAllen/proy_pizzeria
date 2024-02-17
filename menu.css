@@ -1,0 +1,78 @@
+body {
+    background-image: url(imgs/pizza-con-diversos-ingredientes.jpg);
+    color: white;
+    margin: 0;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    display: inline-block;
+    margin: 0 auto;
+    width: 80px; /* Ajusta el tamaño del logo */
+    padding-top: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: black;
+}
+
+nav {
+    text-align: center;
+    background-color: grey;
+    padding: 20px 0; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px; 
+    text-align: center;
+}
+
+nav ul li a {
+    font-size: 20px; 
+    color: black; 
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+}
+
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-item {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    width: 300px; /* Ancho del elemento del menú */
+}
+
+.menu-item img {
+    display: block;
+    width: 200px;
+    height: 250px;
+    margin: 0 auto;
+    border-style: dashed;
+    border-color: yellow;
+    border-radius: 20%; /* Formato redondo para las imágenes */
+}
+
+.menu-item h2 {
+    font-size: 24px;
+}

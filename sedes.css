@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Color de fondo vainilla */
+    color: white; /* Color del texto */
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    display: inline-block;
+    margin: 0 auto;
+    width: 80px; /* Ajusta el tamaño del logo */
+    padding-top: 20px;
+}
+
+.logo img {
+    max-width: 100px; /* Tamaño máximo del logo */
+}
+
+.sedes h1 {
+    text-align: center; /* Centra la palabra "Sedes" */
+}
+
+nav {
+    background-color: black; /* Fondo negro */
+    padding: 10px 0; /* Añade espacio alrededor de los enlaces */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Centra los enlaces */
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white; /* Color del texto */
+    text-decoration: none;
+}
+
+.redes-sociales {
+    text-align: center;
+    padding: 20px;
+}
+
+.redes-sociales a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 30px; /* Tamaño de fuente para los íconos */
+    color: black;
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sede {
+    width: 30%; /* Ajusta el ancho de los div de las sedes */
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: black; /* Color de fondo negro */
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    overflow: hidden; /* Evita que las imágenes desborden */
+}
+
+.sede img {
+    max-width: 100%; /* Ajusta el tamaño máximo de las imágenes */
+    height: auto; /* Ajusta la altura de forma automática */
+}
+
+.sede p {
+    margin: 10px 0;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    margin-left: 130px;
+}
+
+.map {
+    width: 50%; /* Tamaño del mapa */
+    margin-right: 20px; /* Espacio entre el mapa y la información */
+}
+
+.info {
+    width: 50%;
+    background-color: bisque;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 200px;
+}
+
